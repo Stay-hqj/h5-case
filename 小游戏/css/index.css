@@ -1,0 +1,347 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background: black;
+	overflow: hidden;
+}
+/*第一页*/
+#pp{
+	animation-delay: 7.5s;
+	opacity: 0;
+}
+#span1{
+	animation-delay: 5.5s;
+	opacity: 0;
+}
+#span2{
+	animation-delay: 6.5s;
+	opacity: 0;
+}
+.p1 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#picbg {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform: scale(0.5);
+}
+
+#picbg>img:nth-of-type(1) {
+	width: 4.31rem;
+	position: absolute;
+	/* display: none; */
+	top: 18%;
+	left: 15%;
+}
+
+#picbg>img:nth-of-type(2) {
+	width: 4.31rem;
+	position: absolute;
+	top: 18%;
+	left: 15%;
+}
+
+#wenzi {
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	font-size: 0.4rem;
+	color: white;
+	position: absolute;
+	top: -20%;
+	height: 18rem;
+	left: 23%;
+}
+
+#spn1 {
+	margin-bottom: -8%;
+	display: block;
+}
+#hotarea{
+	position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    top: 42%;
+    left: 59%;
+}
+
+
+
+
+/*第二页*/
+
+#wrap {
+	height: 100%;
+	width: 100%;
+	overflow-Y: hidden;
+	overflow-x: auto;
+	position: relative;
+}
+#wrap::-webkit-scrollbar {
+	height: 0px;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+}
+
+#bgWhite,#bgBlack{
+	height: 100%;
+	position: absolute;
+}
+#bgBlack{
+	z-index: 10;
+}
+
+/*进来的文字提示*/
+#prompt{
+	    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+}
+#prompt>img:nth-of-type(1){
+	    width: 6rem;
+    position: absolute;
+    top: 20%;
+    left: 9%;
+}
+/*没用到的东西*/
+
+
+/*书包*/
+
+.bag {
+	position: absolute;
+	width: 1.75rem;
+	height: 1.75rem;
+	left: 308%;
+	top: 70.6%;
+}
+
+.bag>img{
+	position: absolute;
+	width: 1.75rem;
+}
+
+/*灯光*/
+.deng{
+	position: absolute;
+    left: 251.4%;
+    top: 43%;
+    width: 1.26rem;
+    height: 1.26rem;
+}
+.deng>img{
+	position: absolute;
+    width: 1.26rem;
+}
+.none{
+	display: none;
+}
+
+/*左抽屉*/
+.leftlocker{
+	height: 2.18rem;
+	width: 2.18rem;
+	position: absolute;
+	top: 68.67%;
+	left: 76.5%;
+}
+.leftlocker>img{
+	position: absolute;
+	width: 2.18rem;
+}
+/*右抽屉*/
+.rightlocker{
+	height: 1.58rem;
+	width: 1.58rem;
+	position: absolute;
+	top: 70.4%;
+	left: 282.53%;
+}
+.rightlocker>img{
+	position: absolute;
+	width: 1.58rem;
+}
+/*枕头*/
+.zhent{
+	position: absolute;
+    left: 111%;
+    top: 60%;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.zhent>img{
+	position: absolute;
+    width: 2.4rem;
+}
+/*衣柜*/
+#ward>img:nth-of-type(1){
+	    position: absolute;
+	    left: 194%;
+	    top: 22.6%;
+	    width: 1.6rem;
+	     display: none; 
+	     z-index: 1;
+}
+#wardbg{
+position: absolute;
+    left: 201.5%;
+    top: 23%;
+    width: 1rem;
+    height: 3.6rem;
+    z-index: 2;
+}	
+
+/*有用到*/
+/*游戏机*/
+#gamebg {
+    position: absolute;
+    top: 58%;
+    width: 1rem;
+    height: 1.2rem;
+    left: 74%;
+}
+#gamept1{
+    position: absolute;
+    top: 0%;
+    color: white;
+    width: 100%;
+    font-size: 0.4rem;
+    height: 100%;
+    text-align: center;
+}
+#pt{
+	margin-top: 24%;
+}
+#pt>p:nth-of-type(3){
+	    font-size: 0.3rem;
+    color: #e6b825;
+}
+#pt>img:nth-of-type(1){
+	    width: 4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+#pt>button:nth-of-type(1){
+	       width: 2.2rem;
+    height: 0.55rem;
+    font-size: 0.32rem;
+    margin-top: 0.5rem;
+}
+
+/*卡带*/
+#kadaibg {
+position: absolute;
+    top: 78%;
+    width: 3rem;
+    height: 1.8rem;
+    left: 117%;
+}
+/*手机*/
+#phonebg {
+position: absolute;
+    position: absolute;
+    top: 61%;
+    width: 0.8rem;
+    height: 0.8rem;
+    left: 155%;
+}
+#phpt2>img:nth-of-type(1){
+	width: 1.6rem;
+}
+/*光驱*/
+#gqbg {
+position: absolute;
+    top: 45%;
+    width: 0.8rem;
+    height: 0.3rem;
+    left: 301%;
+}
+/*快关*/
+#switchbg {
+position: absolute;
+    top: 42%;
+    width: 0.6em;
+    height: 0.6rem;
+    left: 341%;
+}
+#hotS>div{
+	z-index: 100;
+}
+#door{
+    position: absolute;
+    top: 46%;
+    left: 368%;
+    height: 1.5rem;
+    width: 1rem;
+}
+
+
+/*没有用到的文字*/
+
+.unwork {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	font-size: 0.35rem;
+	color: white;
+	z-index: 100;
+}
+
+#unw {
+	margin-top: 120%;
+	border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 80%;
+	height: 1.8rem;
+	margin-left: 12%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+}
+
+#unw>p:nth-of-type(2) {
+	color: #e6b825;
+}
+#got{
+	position: absolute;
+	text-align: center;
+    top: 5%;
+    left: 27%;
+	color: white;
+	font-size: 0.5rem;
+}
+#shouyinji{
+    position: absolute;
+    top: 44%;
+    left: 144%;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#map{
+    position: absolute;
+    top: 11%;
+    left: 0%;
+    height: 5rem;
+    width: 3rem;
+}
