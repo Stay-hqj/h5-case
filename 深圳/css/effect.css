@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 overflow: hidden;
 }
@@ -219,5 +220,228 @@ overflow: hidden;
 @keyframes breath{
 	0%{ opacity: 0; }
 	50%{ opacity: 1; }
+=======
+body {
+overflow: hidden;
+}
+
+.fadeIn{
+	animation: fadeIn 1s forwards ;
+}
+
+@keyframes fadeIn{
+	
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+	
+}
+
+
+.narrow{
+	animation: narrow 1.5s infinite;
+}
+@keyframes narrow{
+	form{
+		bottom: -1rem;
+		opacity: 1;
+	}
+	to{
+		bottom: 0.3rem;
+		opacity: 0;
+	}
+}
+
+.fadeInfite{
+	animation:  fadeInfite 3s infinite linear;
+}
+
+@keyframes fadeInfite{
+	0%{ opacity: 0; }
+	25%{ opacity: 0.5; }
+	50%{ opacity: 0.9; }
+	75%{ opacity: 0.5; }
+	100%{ opacity: 0; }
+}
+
+@keyframes bounceIn{
+	from,
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+	
+	0% {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+	
+	20% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+	
+	40% {
+		transform: scale3d(0.9, 0.9, 0.9);
+	}
+	
+	60% {
+		opacity: 1;
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+	
+	80% {
+		transform: scale3d(0.97, 0.97, 0.97);
+	}
+	
+	to {
+		opacity: 1;
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes flye {
+	from {
+		left: -40%;
+		top: 7%;
+	}
+	to {
+		left: 110%;
+		top: -50%;
+	}
+}
+
+@keyframes la2 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+@keyframes la3 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes la4 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes la5 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes la6 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes la1 {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.sildeOut-top{
+	animation: slideOut-top 18s forwards linear;
+}
+.sildeOut-small{
+	animation: slideOut-small 18s forwards linear;
+}
+.sildeOut-t{
+	animation: slideOut-t 18s forwards linear;
+}
+.sildeOut-s{
+	animation: slideOut-s 18s forwards linear;
+}
+.rotatePY{
+	animation: rotatePY 1s 4.4s forwards linear ;
+}
+.breath{
+	animation: breath 1.5s infinite linear;
+}
+@keyframes slideOut-top{
+	from{ 
+		transform: translateX( 0 );
+	}
+	to{
+		visibility: hidden;
+		transform: translateX( 100% );
+	}
+}
+
+@keyframes slideOut-t{
+	from{ 
+		transform: translateX( 0 );
+	}
+	to{
+		transform: translateX( 200% );
+	}
+}
+@keyframes slideOut-s{
+	from{ 
+		transform: translateX( 0 );
+	}
+	to{
+		transform: translateX( 300% );
+	}
+}
+
+@keyframes slideOut-small{
+	from{ 
+		transform: translateX( 0 );
+	}
+	to{
+		visibility: hidden;
+		transform: translateX( 200% );
+	}
+}
+@keyframes rotatePY{
+	0%{ opacity: 0;transform: rotateY(90deg); }
+	80%{ opacity: 0.8;transform: rotateY(-25deg); }
+	100%{ opacity: 1;transform: rotateY(0deg); }
+}
+
+@keyframes lnIn {
+	from {
+		transform: translateX(0%);
+	}
+	to {
+		transform: translateX(80%);
+	}
+}
+@keyframes breath{
+	0%{ opacity: 0; }
+	50%{ opacity: 1; }
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd
 	100%{ opacity: 0; }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .fadeIn {
 	animation: fadeIn 2s forwards;
@@ -16,6 +17,26 @@
 	animation:  false 0.5s forwards ;
 }
 
+=======
+
+.fadeIn {
+	animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.false{
+	animation:  false 0.5s forwards ;
+}
+
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd
 @keyframes false{
 	0%{ transform: translateX( 10% ); }
 	20%{ transform: translateX( -10% ); }
@@ -23,14 +44,22 @@
 	60%{ transform: translateX( -10% ); }
 	80%{ transform: translateX( 10% ); }
 	100%{ transform: translateX( 0% ); }
+<<<<<<< HEAD
 }
 .LsideIn{
 	animation: LsideIn 0.5s forwards ease-out;
 }
+=======
+}
+.LsideIn{
+	animation: LsideIn 0.5s forwards ease-out;
+}
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd
 @keyframes LsideIn{
 	from{ transform: translateX(100%); }
 	to{ transform: translateX(0%); }
 }
+<<<<<<< HEAD
 .RsideIn{
 	animation: RsideIn 0.5s forwards ease-out;
 }
@@ -85,3 +114,59 @@
 		opacity: 1;
 	}
 }
+=======
+.RsideIn{
+	animation: RsideIn 0.5s forwards ease-out;
+}
+@keyframes RsideIn{
+	from{ transform: translateX(-100%); }
+	to{ transform: translateX(0%); }
+}
+
+.shake{
+	animation: shake 1s forwards;
+}
+@keyframes shake{
+	25%{ transform: translateX( -10% ); }
+	50%{ transform: translateX( 10% ); }
+	75%{ transform: translateX( -10% ); }
+	100%{ transform: translateX( 0% ); }
+}
+/*动画*/
+/*门动画*/
+#picbg>img:nth-of-type(1){
+	animation: door 0.5s linear infinite;
+}
+#picbg>img:nth-of-type(2){
+	animation: door02 0.5s 200ms linear infinite;
+}
+@keyframes door{
+	from{opacity: 0;}
+	50%{ opacity: 1; }
+	to{opacity: 0;}
+}
+@keyframes door02{
+	from{opacity: 0.7;}
+	50%{ opacity: 1; }
+	to{opacity: 0.7;}
+}
+#picbg{
+	animation: twodoor 5s linear forwards;
+}
+@keyframes twodoor{
+	from{ transform: scale(0.5); }
+	to{ transform: scale(1); }
+}
+/*文字动画*/
+.fadeIn{
+	animation: span1 1s linear forwards;
+}
+@keyframes span1{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd

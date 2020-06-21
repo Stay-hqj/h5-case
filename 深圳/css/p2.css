@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 		<style type="text/css">* {
 			margin: 0%;
 			padding: 0%;
@@ -142,4 +143,150 @@
 			  }
 		}
 		
+=======
+		<style type="text/css">* {
+			margin: 0%;
+			padding: 0%;
+		}
+		
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+		}
+		
+		.all2 {
+			background: url(../img/p2/4.png)no-repeat;
+			background-size: 100% 100%;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-flow: column;
+			color: white;
+		}
+		
+		#yun {
+			width: 5.19rem;
+			animation: yun 1s 1s 1 forwards;
+			opacity: 0;
+		}
+		
+		@keyframes yun {
+			from {
+				opacity: 0;
+				transform: scale(0);
+			}
+			to {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+		
+		#top {
+			position: relative;
+			top: 12%;
+			opacity: .8;
+			font-family: cursive;
+		}
+		
+		#top p:nth-child(1) {
+			font-size: 0.6rem;
+			text-align: center;
+			margin-bottom: 2%;
+		}
+		
+		#top p:nth-child(2) {
+			background-color: white;
+			border: 0.02rem solid white;
+			margin-bottom: 2%;
+			animation: dong 0.7s linear;
+			animation-fill-mode: forwards;
+		}
+		
+		@keyframes dong {
+			0% {
+				width: 0.01rem;
+			}
+			10% {
+				width: 1%;
+			}
+			20% {
+				width: 20%;
+			}
+			30% {
+				width: 30%;
+			}
+			40% {
+				width: 40%;
+			}
+			50% {
+				width: 50%;
+			}
+			60% {
+				width: 60%;
+			}
+			70% {
+				width: 70%;
+			}
+			80% {
+				width: 80%;
+			}
+			90% {
+				width: 90%;
+			}
+			100% {
+				width: 100%;
+			}
+		}
+		
+		#top p:nth-child(3) {
+			font-size: 0.3rem;
+			letter-spacing: 0.1rem;
+			color: rgba(255, 255, 255, 0.8);
+			animation: top3 1s forwards;
+			text-align: center;
+		}
+		
+		@keyframes top3 {
+			from {
+				transform: translateY(5%%);
+			}
+			to {
+				transform: translateY(-20%);
+			}
+		}
+		
+		#sz {
+			font-size: 0.32rem;
+			animation: sz 1s 2s 1 forwards;
+			opacity: 0;
+			font-family: cursive;
+		}
+		
+		@keyframes sz {
+			from {
+			    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+			    animation-timing-function: ease-in;
+			    opacity: 0;
+			  }
+			  40% {
+			    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+			    animation-timing-function: ease-in;
+			  }
+			  60% {
+			    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+			    opacity: 1;
+			  }
+			  80% {
+			    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+			  }
+			  to {
+			    transform: perspective(400px);
+			    opacity: 0.8;
+			  }
+		}
+		
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd
 		</style>

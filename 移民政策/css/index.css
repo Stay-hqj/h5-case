@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	margin: 0px;
 	padding: 0px;
@@ -170,3 +171,177 @@ div.hand:nth-of-type(7){
 
 
 
+=======
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+#wrap::-webkit-scrollbar{
+	width: 0;
+}
+#bg{
+	position: relative;
+}
+#bg>img{
+	width: 100%;	
+}
+.hand{
+	position: absolute;
+	 transform: scale(.5);
+}
+.poabsolute{
+	position: absolute;
+	transform: scale( 0.6 );
+}
+.hand>img:nth-of-type(1){
+	width: 0.35rem;
+}
+.hand>img:nth-of-type(2){
+	width: 0.73rem;
+	transform: translateX(-77%) translateY(63%);
+}
+/*手指开始*/
+div.hand:nth-of-type(1){
+	top: 16%;
+    left: 60%;
+}
+
+div.hand:nth-of-type(2){
+	top: 30%;
+	left: 69%;
+}
+
+div.hand:nth-of-type(3){
+	top: 30%;
+	left: 23%;
+}
+
+div.hand:nth-of-type(4){
+	top: 33.2%;
+	left: 46%;
+}
+div.hand:nth-of-type(5){
+	top: 35.2%;
+	left: 66%;
+}
+div.hand:nth-of-type(6){
+	top: 39%;
+	left: 49%;
+}
+div.hand:nth-of-type(7){
+	top: 81%;
+	left: 46%;
+}
+/*手指结束*/
+.left{
+	width: 3.05rem;
+	top: 26.3%;
+	left: 7.5%;
+}
+.center{
+	width: 2.85rem;
+	top: 32.8%;
+	left: 31%;
+}
+.right{
+	width: 3.05rem;
+	top: 26.3%;
+	left: 52%;
+}
+#informationSet p{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+#informationSet>div>div{
+	position: absolute;
+}
+#left{
+	top: 28%;
+	left: 20%;
+}
+#center{
+	top: 33.5%;
+	left: 41.5%;
+	position: absolute;
+}
+#right{
+	top: 28%;
+	left: 64.5%;
+}
+#detail>img{
+	position: absolute;
+	display: none;
+}
+#detail>img:nth-of-type(1){
+	width: 11.13rem;
+    top: 14.5%;
+    left: -24%;
+    transform: scale( .6 );
+}
+#detail>img:nth-of-type(2){
+	width: 4.1rem;
+    top: 32.8%;
+    left: 20%;
+    transform: scale( 1.1 );
+}
+#detail>img:nth-of-type(3){
+	width: 4.1rem;
+    top: 33.5%;
+    left: 23%;
+    transform: scale(1.2);
+}
+#detail>img:nth-of-type(4){
+	width: 10.31rem;
+    top: 28.2%;
+    left: -17%;
+    transform: scale( 0.6 );
+}
+#detail>img:nth-of-type(5){
+	width: 10.31rem;
+    top: 34.5%;
+    left: -18%;
+    transform: scale( 0.6 );
+}
+#detail>img:nth-of-type(6){
+	width: 11.92rem;
+    top: 36.5%;
+    left: -29%;
+    transform: scale( 0.55 );
+}
+#detail>img:nth-of-type(7){
+	width: 8.72rem;
+    top: 79.6%;
+    left: -6%;
+    transform: scale( 0.6 );
+}
+.active{
+	display: block !important;
+}
+.op{
+	opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd

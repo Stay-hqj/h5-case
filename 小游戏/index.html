@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -257,4 +258,265 @@
 	</body>
 	<script type="text/javascript" src="js/index.js"></script>
 	<script type="text/javascript" src="js/door.js"></script>
+=======
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>教程教程</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = (document.documentElement.clientWidth / 750) * 100 + "px";
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/effect.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Tail.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Notice.css"/>
+	</head>
+
+	<body ondrag="return false">
+		<div id="music">
+			<audio src="music/click.mp3" id="click"></audio>
+			<audio src="music/longMuisc.mp3" id="bgm"></audio>
+		</div>
+		
+		
+		
+		
+		<!--第一页-->
+		<div class="p1">
+			<div id="picbg">
+				<img src="img/57075388a3664e6b0100003e.png" />
+				<img src="img/57075389a3664e530100003d.png" />
+			</div>
+			<div id="wenzi">
+				<p class="fadeIn" id="pp">点击门把手开门</p>
+				<p>
+					<span id="span1" class="fadeIn">如果打开这扇门</span><br />
+					<span id="span2" class="fadeIn">就是你当年的那个房间...</span>
+				</p>
+			</div>
+			<div id="hotarea" style="display: none;"></div>
+		</div>
+
+
+		
+		
+		<!--进来提示-->
+		<div id="prompt">
+			<img src="img/57075e14a3664e510100006f.png" />
+		</div>
+
+
+
+		<!--第二页-->
+		<div id="wrap" style="display: none;">
+			<!--背景图片-->
+			<div id="bg">
+				<img src="img/57032b69a3664e99670006d7.jpg" style="display: none;" id="bgBlack" />
+				<img src="img/57032b6aa3664e22670006d0.jpg" id="bgWhite" />
+			</div>
+			<!--无用到-->
+			<div id="unuse">
+				<!--书包-->
+				<div class="bag">
+					<img src="img/5703880ca3664e2564000885.jpg" />
+					<img src="img/5703880ca3664e2e020001ef.jpg" class="none"/>
+				</div>
+				<!--灯光-->
+				<div  class="deng">
+					<img src="img/deng.png" />
+					<img src="img/20190316131243.png" class="none"/>
+				</div>
+				<!--左边抽屉-->
+				<div  class="leftlocker">
+					<img src="img/5704927da3664e0d74000117.jpg" />
+					<img src="img/5704927da3664efd73000132.jpg" class="none"/>
+				</div>
+				<!--右边抽屉-->
+				<div class="rightlocker">
+					<img src="img/20190316131401.png" />
+					<img src="img/20190316131413.png" class="none"/>
+				</div>
+				<!--枕头-->
+				<div class="zhent">
+					<img src="img/20190316131331.png" />
+					<img src="img/20190316131350.png" class="none"/>
+				</div>
+				<div id="ward">
+					<div id="wardbg" class="maxZindex"></div>
+					<img src="img/20190316131431.png" class="none" id="oimg"/>
+				</div>
+			</div>
+			<!--热区-->
+			<div id="hotS">
+				<div id="switchbg" data-state="false"></div>  <!--开关-->
+				<div class="bag" data-state="false"></div>	 <!--书包-->
+				<div class="rightlocker" data-state="false"></div>  <!--柜子-->
+				<div class="deng" data-state="false"></div>	 <!--灯光-->
+				<div class="leftlocker" data-state="false"></div>  <!--右柜子-->
+				<div id="gamebg" data-state="false"></div>			<!--游戏机-->
+				<div id="phonebg" data-state="false"></div>		<!--手机-->
+				<div id="gqbg" data-state="false"></div>			<!--光驱-->
+				<div id="kadaibg" data-state="false"></div>				<!--卡带-->
+				<div class="zhent" data-state="false"></div>				<!--枕头-->
+				<div id="door" data-state="false"></div>					<!--门-->
+				<div id="shouyinji" data-state="false"></div>			<!--收音机-->
+				<div id="map"></div>
+			</div>
+		</div>
+		
+		<!--弹窗位置-->
+		<!--没用到的文字-->
+		<div class="unwork" style="display: none;">
+			<div id="unw">
+				<p>抽屉里面放着乒乓球拍</p>
+				<p>已经开胶了，感觉有些历史了</p>
+			</div>
+		</div>
+		
+		<!--有用弹窗-->
+		<div id="notice">
+			
+			<!--提示已经获的该线索-->			
+			<p id="got" style="display: none;">您已获得该线索</p>
+			<!--已获得的线索开始-->
+			<div id="clues">已获得线索&nbsp;<span>1</span>&nbsp;/4</div>
+			<!--已获得的线索结束-->
+			
+			
+			<!--游戏机-->
+			<div id="gamept1" style="display: none;" data-state="false">
+				<div id="pt">
+					<p>摇一摇试试</p>
+					<img src="img/5704e4dea3664e4b7700010c.png" />
+					<p>原来是一个街机模样的存钱罐</p>
+					<p>硬币投进去好像卡住了，摇一摇试试</p>
+					<button style="display: none;">点击查看</button>
+				</div>
+			</div>
+			<!--卡带-->
+			<div id="kadai">
+				<div id="kdpt1" class="fir" style="display: none;">
+					<div id="wrap3" >
+						<p>吹掉卡带接口的灰尘</p>
+						<img src="img/5704e2b3a3664ef57300030a.png" />
+						<div id="text">
+							<p>红白机上落了一层灰尘</p>
+							<p>卡带插上去似乎有些接触不良</p>
+						</div>
+						<button class="btn01">按住吹一吹</button>
+					</div>
+				</div>
+				<div id="kdpt2" class="sec" style="display: none;">
+					<div id="wrap4">
+						<img src="img/5704e2b3a3664e7c6e00012c.png"/>
+						<div id="text2">
+							<p>红白机上落了一层灰尘</p>
+							<p>卡带插上去似乎有些接触不良</p>
+						</div>
+						<button class="btn02">点击查看</button>
+					</div>
+				</div>
+			</div>
+			<!--手机-->
+			<div id="phone">
+				<div id="phonept1" class="fir" style="display: none;">
+					<div id="phpt2">
+						<p>请查看手机</p>
+						<img src="img/5704d1f3a3664ee8730002b2.png" />
+						<div id="ptp">
+							<p>这手机居然还有电</p>
+							<p>有一条未读信息</p>
+						</div>
+						<p class="btn01"></p>
+					</div>
+				</div>
+				<div id="phonept2" class="sec" style="display: none;">
+					<div id="wrap2">
+						<img src="img/5704d1f3a3664ee8730002b2.png" />
+						<div id="ts">
+							<p>原来上一次下副本<br /> 已经过了那么久了
+							</p>
+						</div>
+						<button class="btn02">点击查看</button>
+					</div>
+				</div>
+			</div>
+			<!--光驱-->
+			<div id="computer" style="display: none;">
+				<div class="one fir" style="display: none;">
+					<p>打开光驱</p>
+					<img src="img/5704c80aa3664e976e00006a.png"/>
+					<p>咦，打开光驱看看?</p>
+					<div class="dot dotCartoon btn01"></div>
+					</div>
+				<div class="two sec" style="display: none;">
+					<img src="img/5704c80ba3664ef07300025a.png"/>
+					<p>咦，打开里面居然有东西!</p>
+					<button class="btn02">点击看看</button>
+				</div>
+			</div>
+			
+			<!--第三个面板-->
+			<div id="lastPanel" style="display: none;">
+				<img src="img/01.png"/>
+				<h2>获得第一块"记忆碎片"</h2>
+				<p>上面好像有奇怪的图案</p>
+				<p>好像只是其中一部分</p>
+			</div>
+			
+		</div>
+		
+		
+		
+		<!--tail-->
+		<div id="Tailwrap">
+			<!--输入密码开始-->
+			<div id="password">
+							
+					<h3>输入密码</h3>		
+					<div id="circle">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div id="Numbtn">
+						<div>1</div>
+						<div>2</div>
+						<div>3</div>
+						<div>4</div>
+						<div>5</div>
+						<div>6</div>
+						<div>7</div>
+						<div>8</div>
+						<div>9</div>
+						<div>0</div>
+					</div>
+					<div id="cancel">
+						<span>取消</span>
+					</div>
+			</div>
+			<!--输入密码结束-->
+			
+			<!--结尾开始-->
+			<div id="tail" class="fadeIn">
+				<p class="fadeIn">您已经通关</p>
+				<p class="fadeIn">记忆的碎片重新组合</p>
+				<p class="fadeIn">曾经的英雄们被慢慢唤醒</p>
+			</div>
+			
+			<div id="poster">
+				<p>杰作小游戏结束</p>
+			</div>
+			<!--结尾结束-->
+		</div>
+		
+		
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/door.js"></script>
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	margin: 0%;
 	padding: 0%;
@@ -199,3 +200,206 @@ body {
 		opacity: 1;
 	}
 }
+=======
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+.all7 {
+	background: url(../img/p7/59e5af7192b579027d364e57.png);
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+#inner-seven{
+	background: url(../img/p7/59e462b060401c05d12ccbad.png);
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	color: white;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	animation-delay: 1s;
+	opacity: 0;
+}
+#top7 {
+	font-size: 0.3rem;
+	text-align: center;
+	position: relative;
+	top: 11%;
+	opacity: 0.8;
+}
+
+.all7 p {
+	line-height: 0.5rem;
+	overflow: hidden;
+	margin: 0%;
+}
+#co71{
+	position: absolute;
+	top: 47%;
+	left: 3%;	
+	overflow: hidden;
+	animation: co71 2s 7s forwards;
+	opacity: 0;
+}
+#co71 p {
+	width: 7rem;
+	font-size: 0.3rem;
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	overflow: hidden;
+}
+#co71 p:after{
+	content: "";	
+	display: block;
+	border: 1px solid white;
+}
+#co71 p:before{
+	content: "";
+	display: block;
+	border: 1px solid white;
+}
+
+@keyframes co71 {
+	from {
+		width: 0rem;
+		opacity: 0;
+	}
+	to {
+		width: 7rem;
+		opacity: 1;
+	}
+}
+
+#xie {
+	border: 0.02rem solid white;
+	margin: 0% 6% 0% 6%;
+}
+
+#con7 {
+	font-size: 0.4rem;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 3%;
+	animation: con7 1s 8.8s forwards;
+	opacity: 0;
+}
+
+@keyframes con7 {
+	0% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	20% {
+		opacity: 1;
+		)
+	}
+	40% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	60% {
+		opacity: 1;
+		transform: scale(1.1);
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+#fot7 {
+	width: 7rem;
+	position: relative;
+	text-align: center;
+	top: 0%;
+}
+
+@keyframes fo71 {
+	from {
+		width: 0%;
+		opacity: 1;
+	}
+	to {
+		width: 2.07rem;
+		opacity: 1;
+	}
+}
+
+#f71 {
+	width: 2.07rem;
+	animation: fo71 1s 10s forwards;
+	opacity: 0;
+	transform-origin: left;
+	display: block;
+	position: absolute;
+	margin-top: -19%;
+	left: 18%;
+}
+
+@keyframes fo72 {
+	from {
+		width: 0%;
+		opacity: 1;
+	}
+	to {
+		width: 2.07rem;
+		opacity: 1;
+	}
+}
+
+#f72 {
+	width: 2.07rem;
+	animation: fo72 1s 10.2s forwards;
+	opacity: 0;
+	transform-origin: left;
+	display: block;
+	position: absolute;
+	left: 57%;
+	margin-top: -20%;
+}
+
+.op1 {
+	opacity: 0;
+	animation: op 1s 3s forwards;
+}
+.op2 {
+	opacity: 0;
+	animation: op 1s 3.8s forwards;
+}
+.op3 {
+	opacity: 0;
+	animation: op 1s 4.6s forwards;
+}
+.op4 {
+	opacity: 0;
+	animation: op 1s 5.4s forwards;
+}
+.op5 {
+	opacity: 0;
+	animation: op 1s 6.2s forwards;
+}
+@keyframes op {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd

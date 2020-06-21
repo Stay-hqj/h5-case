@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .handTopBto{
 	animation: handTopBto 2s infinite ;		
 }
@@ -14,4 +15,22 @@
 	50%{ transform: scale( .8 );opacity: .5; }
 	to{ transform: scale( 1.1 );opacity: 1; }
 	
+=======
+.handTopBto{
+	animation: handTopBto 2s infinite ;		
+}
+@keyframes handTopBto{
+	from{ transform: translateX(-77%) translateY(63%); }
+	50%{ transform: translateX(-77%) translateY(88%); }
+	to{ transform: translateX(-77%) translateY(63%); }
+}
+.scaleCircle{
+	animation: scaleCircle 2s infinite;
+}
+@keyframes scaleCircle{
+	from{ transform: scale( 1.1 );opacity: 1; }
+	50%{ transform: scale( .8 );opacity: .5; }
+	to{ transform: scale( 1.1 );opacity: 1; }
+	
+>>>>>>> 27e69e571489a82df6893b7181c1785ed566bacd
 }
