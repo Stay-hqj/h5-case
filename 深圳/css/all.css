@@ -1,0 +1,48 @@
+#test>p {
+	opacity: 0;
+}
+#else {
+	display: none;
+}
+
+#else img {
+	z-index: 1000;
+}
+
+#narrow>img {
+	position: absolute;
+	bottom: 0rem;
+	width: 0.6rem;
+	left: 50%;
+	margin-left: -0.3rem;
+	opacity: 0.5;
+}
+
+#music>img {
+	width: 0.5rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0.3rem;
+}
+
+#photo>img:nth-of-type(3) {
+	width: 5.58rem;
+	animation-delay: 550ms;
+	position: absolute;
+	left: 1%;
+}
+
+#photo>img:nth-of-type(2) {
+	position: absolute;
+	width: 4.34rem;
+	top: 55%;
+	left: 25%;
+	animation-delay: 250ms;
+}
+
+#photo>img:nth-of-type(1) {
+	position: absolute;
+	width: 4.74rem;
+	top: 73%;
+	left: 33%;
+}

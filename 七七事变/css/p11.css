@@ -1,0 +1,44 @@
+.page-eleven {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.all11 {
+	position: relative;
+}
+
+.all11 img {
+	width: 13.4rem;
+	position: relative;
+	left: -31%;
+}
+
+#con11 {
+	text-align: center;
+	color: white;
+	font-size: 0.32rem;
+	letter-spacing: 0.05rem;
+	position: absolute;
+	top: 7%;
+	left: 16%;
+	opacity: 0.9;
+}
+
+#con11 p:nth-child(1) {
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: 华文中宋;
+	transform: skewX(-7deg);
+}
+
+
+#bg11 {
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 14rem;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+

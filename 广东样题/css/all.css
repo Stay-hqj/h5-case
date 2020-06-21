@@ -1,0 +1,33 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html,body{
+	height: 100%;			
+	width: 100%;
+	overflow: hidden;
+}
+html{
+	transition: 0.5s;
+	animation: 0.5s fadeIn forwards;
+}
+body{
+	background: url(../img/p1-Loading/bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+#else>img:nth-of-type(1){
+	position: absolute;
+	width:0.63rem;
+	top: 5%;
+	right: 5%;
+}
+#back{
+	font-size: 0.5rem;
+    text-align: center;
+    width: 0.63rem;
+    color: gray;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: none;
+}

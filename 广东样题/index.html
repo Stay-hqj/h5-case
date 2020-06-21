@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initical-scale=1.0,user-scalable=no,target-densitydpi=device-dpi" />
+		<title>任务二</title>
+		<script type="text/javascript">
+			var ohtml = document.getElementsByTagName("html")[0]; //获取html元素
+			ohtml.style.fontSize = (document.documentElement.clientWidth / 750) * 100 + "px"; //将html默认字体大小==设备屏幕可见宽度大小，目的做自适应字体
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/effect.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+		<link rel="stylesheet" type="text/css" href="css/first.css" />
+		<link rel="stylesheet" type="text/css" href="css/second.css" />
+		<link rel="stylesheet" type="text/css" href="css/third.css" />
+		<link rel="stylesheet" type="text/css" href="css/fourth.css" />
+		<link rel="stylesheet" type="text/css" href="css/fifth.css" />
+	</head>
+
+	<body class="fadedIn">
+		<!--第一页开始-->
+		<div id="first">
+			<img src="img/p1-Loading/picture.png" />
+			<h1 id="loading">LOADING<span></span></h1>
+			<p id="baifenbi">0%</p>
+		</div>
+		<!--第一页结束-->
+
+		<!--第二页开始-->
+		<div id="second">
+			<div id="top">
+				<img src="img/tuolaji/ground.png" id="lt" />
+				<img src="img/tuolaji/拖拉机.png" id="tlj" class="op" />
+				<img src="img/tuolaji/右轮.png" id="yl" class="op rotate" />
+				<img src="img/tuolaji/左轮.png" id="zl" class="op rotate" />
+			</div>
+			<div id="con">
+				<img src="img/tuolaji/bg frame.png" id="bk" />
+				<img src="img/tuolaji/双引号.png" id="sy" class="op" />
+				<section id="content">
+					<p>&nbsp;&nbsp;随着农业技术的发展 </p>
+					<p>本应成为主食的五谷杂粮</p>
+					<p>却渐渐被快餐零食所取代 </p>
+					<p> &nbsp;&nbsp;&nbsp;&nbsp;人们的健康水平</p>
+					<p>也在餐饮条件的变化下</p>
+					<p>&nbsp;&nbsp;&nbsp;变得参差不齐</p>
+				</section>
+			</div>
+			<div id="foot">
+				<img src="img/tuolaji/粮食.png" id="ls" />
+				<img src="img/tuolaji/arrow.png" id="ar" class="op tobottom" style="display: none;" />
+			</div>
+		</div>
+		<!--第二页结束-->
+
+		<!--第三页开始-->
+		<div id="third" style="display: none;">
+			<div id="conte">
+				<div id="daren">
+					<img src="img/p3/上bg.png" id="sbg" class="op" />
+					<img src="img/p3/上画框.png" id="sh" class="op" />
+					<img src="img/p3/大人.png" id="man" class="op" />
+					<img src="img/p3/斜线.png" id="xx" class="op" />
+				</div>
+				<div id="xiaohai">
+					<img src="img/p3/下bg.png" id="xbg" class="op" />
+					<img src="img/p3/下画框.png" id="xh" class="op" />
+					<img src="img/p3/小孩.png" id="ch" class="op" />
+				</div>
+				<img src="img/p3/arrow.png" id="arr" class="op arrow tobottom" style="display: none;" />
+			</div>
+		</div>
+		<!--第三页结束-->
+
+		<!--第四页开始-->
+		<div id="four" style="display: none;">
+			<nav>
+				<div id="yumi">
+					<img src="img/p4-1/玉米.png" />
+					<img src="img/p4-1/玉米1.png" />
+					<img src="img/p4-1/地瓜2.png" />
+					<img src=" img/p4-1/地瓜left.png" />
+					<img src="img/p4-1/地瓜bottom.png" />
+				</div>
+				<img src="img/p4-1/bg circle.png" />
+				<div id="c">
+					<img src="img/p4-1/man.png" />
+					<img src="img/p4-1/左水稻.png" />
+					<img src="img/p4-1/右水稻.png" />
+				</div>
+				<div id="bean">
+					<img src="img/p4-1/土豆.png" />
+					<img src="img/p4-1/红绿豆.png" />
+				</div>
+			</nav>
+			<article>
+				<div>
+					<img src="img/p4-1/bg_frame02.png" />
+					<div id="cont">
+						<span>据说:“</span>
+						<p>多吃五谷杂粮对身体好！”</p>
+						<p>算算你的健康值！</p>
+					</div>
+				</div>
+			</article>
+			<footer>
+				<div id="wrap">
+					<input type="text" placeholder="输入姓名" id="name" />
+					<a href="#" id="sel">
+						<span>选择职业</span>
+						<img src="img/p4-1/trangle_down.png" alt="" />
+						<div id="ul">
+							<ul id="sul">
+								<li>上班族</li>
+								<li>学生</li>
+							</ul>
+						</div>
+					</a>
+				</div>
+			</footer>
+			<div id="btn">
+				<div>赶快算算</div>
+			</div>
+			<div id="notice">
+				<p><span>请输入姓名</span></p>
+			</div>
+		</div>
+		<!--第四页结束-->
+
+		<!--第五页开始-->
+		<div id="fifth" style="display: none;">
+			<div id="pf">
+				<div id="bg">
+					<img src="img/p5/black.png" id="hbj" />
+					
+					<div id="write">
+						<p>请点击按键</p>
+						<p>开始计算</p>
+					</div>
+					
+					<div id="all">
+						<p id="one" class="wugu n">大豆</p>
+						<p id="two" class="wugu n">绿豆</p>
+						<p id="three" class="wugu n">红豆</p>
+						<p id="Ac" class=" yellow">AC</p>
+						<p id="five" class="wugu n">稻子</p>
+						<p id="six" class="wugu n">玉米</p>
+						<p id="eve" class="wugu n">黑豆</p>
+						<p id="eig" class="yellow ">+</p>
+						<p id="nigth" class="lingshi n">软糖</p>
+						<p id="ten" class="lingshi n">雪糕</p>
+						<p id="once" class="lingshi n">辣条</p>
+						<p id="dengyu" class="yellow">=</p>
+					</div>
+					
+				</div>
+				
+				
+				<div id="footer" style="display: none;">
+					<div>
+						<img src="img/p5/haunbna.png" id="result" />
+						<section id="text">
+							<div>
+								<p>
+									<span>名字:</span>
+									<span id="oname">黄同学</span>
+								</p>
+								<p>
+									<span>分数:</span>
+									<span>100</span>
+									<span>分</span>
+								</p>
+								<p>
+									<span>结果:</span>
+									<span id="fitResult">良</span>
+								</p>
+							</div>
+							<div style="margin-top: 20%;" >
+								<p class="you">优</p>
+								<p class="te">
+									<span>你的饮食习惯很好，</span>
+									<span>加上适量的运动，</span>
+									<span>身体会更棒。</span>
+									<span>希望您继续保持呦！</span>
+								</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--第五页结束-->
+		<div id="else">
+			<span id="back"><</span>
+			<img src="img/else/bgm_on.png" class="rorole" />
+			<audio autoplay="autoplay" loop id="bgm">
+				<source src="music/bgm.mp3" type="audio/mp3" />
+			</audio>
+			<audio id="click">
+				<source src="music/click.mp3" type="audio/mp3"/>
+			</audio>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</html>

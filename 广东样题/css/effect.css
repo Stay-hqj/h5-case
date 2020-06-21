@@ -1,0 +1,68 @@
+.rotate{
+	animation: rorole 2s infinite linear;
+}
+.fadedIn{
+	animation: fadeIn 1s forwards;
+}
+.toright{
+	animation: Toright 1s forwards;
+}
+.toleft{
+	animation: Toleft 1s forwards;
+}
+.totop{
+	animation: Totop 1s forwards;
+}
+.toBig{
+	animation: toBig 1s infinite;
+}
+.tobottom{
+	animation: Tobottom 1s infinite;
+}
+.fadeOut{
+	animation: fadeout 1s;
+}
+.rorole{
+	animation: rotate 3s infinite;
+}
+@keyframes rorole{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(360deg); }
+}
+@keyframes rotate{
+	0%{ transform: rotate(-60deg); }
+	50%{ transform: rotate(60deg); }
+	100%{ transform: rotate(-60deg); }
+}
+@keyframes chageC{
+	from{ color: white; }
+	to{ color: black; }
+}
+@keyframes fadeIn{
+	from{ opacity: 0; }
+	to{ opacity: 1; }
+}
+@keyframes fadeout{
+	from{ opacity: 1; }
+	to{ opacity: 0; }
+}
+@keyframes Toright{
+	from{ right: -100%; }
+	to{ right: 0%; }
+}
+@keyframes Toleft{
+	from{ left: -100%; }
+	to{ left: 0%; }
+}
+@keyframes Totop{
+	from{ top: -100%; }
+	to{ top: 0%; }
+}
+@keyframes toBig{
+	from{ font-size: 0.4rem; }
+	to{ font-size: 0.8rem; }
+}
+@keyframes Tobottom{
+	from{ top: 94%; }
+	to{ top:95% }
+}

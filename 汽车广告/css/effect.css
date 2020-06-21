@@ -1,0 +1,275 @@
+/*
+ 车先出来
+ 然后背景在动
+ * */
+
+.carStartIn{
+	animation: carEffect 1s linear ;
+}
+@keyframes carEffect{
+	from{ transform: translateY(100%); }
+	to{ transform: translateY(0%); }
+}
+
+.bgTranslate{
+	animation: bgTranslate 2s forwards linear;
+}
+
+@keyframes bgTranslate{
+	to{ transform: translateX( -51.5% ); }
+}
+.carRotate{
+	animation: carRotate 2000ms forwards linear;
+}
+@keyframes carRotate{
+	from{}
+	50%{ transform: rotate(10deg); }
+	to{ transform: rotate(0deg); }
+}
+.carBack{
+	animation: carBack 500ms forwards;	
+}
+@keyframes carBack{
+	from{ transform: translateY( -90% ); }
+	top{ transform: translateY( 0% ); }
+}
+.carTop{
+	animation: carTop 1200ms 1s forwards;
+}
+@keyframes carTop{
+	to{ transform: translateY( -90% ); }
+}
+.carTop03{
+	animation: carTop02 800ms forwards;
+}
+.carTop02{
+	animation: carTop 800ms forwards;
+}
+@keyframes carTop02{
+	from{ transform: translateY( -90% ); }
+	to{ transform: translateY( -40% ); }
+}
+.bgchanged01{
+	animation: bgChanged01 1s 1s linear forwards;
+}
+@keyframes bgChanged01{
+	to{ top: -1142.6% }  /*1142.6*/
+}
+.bgChanged02{
+	animation: bgChanged02 1s linear forwards;
+}
+@keyframes bgChanged02{
+	to{ top: -979.5%  }
+}
+.bgChanged03{
+	animation: bgChanged03 1s linear forwards;
+}
+@keyframes bgChanged03{
+	to{ top: -893.6% }
+}
+.bgChanged04{
+	animation: bgChanged04 2s linear forwards;
+}
+@keyframes bgChanged04{
+	to{ top: -599.6%; }
+}
+.bgChanged05{
+	animation: bgChanged05 1.5s linear forwards;
+}
+@keyframes bgChanged05{
+	to{ top: -499.6%; }
+}
+.bgChanged06{
+	animation: bgChanged06 4s ease-out forwards;
+}
+@keyframes bgChanged06{
+	to{ top: -200%; }
+}
+.bgChanged07{
+	animation: bgChanged07 2s linear forwards;
+}
+@keyframes bgChanged07{
+	to{ top: -0.6%; }
+}
+.pro01{
+	animation: pro01 1s 1.5s forwards ease-out;
+}
+@keyframes pro01{
+	from{ transform: translateX(100%); }
+	to{ transform: translateX(0%); }
+}
+.pro02{
+	animation: pro02 1s 200ms forwards ease-out;
+}
+@keyframes pro02{
+	from{ transform: translateX(-100%); }
+	to{ transform: translateX(0%); }
+}
+.pro03{
+	animation: pro03 1s 150ms forwards ease-out;
+}
+@keyframes pro03{
+	from{ transform: skewY( -3deg ) translateX(100%); }
+	to{ transform: skewY( -3deg )  translateX(0%); }
+}
+.pro04{
+	animation: pro04 1s 1s forwards ease-out;
+}
+@keyframes pro04{
+	from{ transform: skewY(-3deg) translateX(-100%); }
+	to{ transform: skewY(-3deg) translateX(0%); }
+}
+.pro04back{
+	animation: pro04Back 1s forwards ease-out;
+}
+@keyframes pro04Back{
+	from{ transform: skewY(-3deg) translateX(0%); }
+	to{ transform: skewY(-3deg) translateX(100%); }
+}
+.pro03back{
+	animation: pro03back 1s forwards;
+}
+@keyframes pro03back{
+	from{ transform: skewY( -3deg ) translateX(0%); }
+	to{ transform: skewY( -3deg ) translateX(100%); }
+}
+.pro01back{
+	animation: pro01back 1s forwards;
+}
+@keyframes pro01back{
+	from{ transform: translateX(0%); }
+	to{ transform: translateX(100%); }
+}
+.showOpen{
+	animation: showOpen 1.5s forwards linear;
+}
+@keyframes showOpen{	/*汽车图片向上展开*/
+	to{ transform: translateY( 0%	) }
+}
+.showShut{
+	animation: showShut 1s forwards linear;
+}
+@keyframes showShut{	/*汽车图片向下收*/
+	from{ transform: translateY( 0% ) }
+	to{ transform: translateY( 57% ) }
+}
+/*小车行驶背景*/
+.carBg{
+	animation:  carBg 1500ms linear forwards ;
+}
+@keyframes carBg{
+	from{ transform: translateX( -30% ); }
+	to{ transform: translateX( 0% ); }
+}
+.carMove{
+	animation: carMove 800ms 1300ms linear forwards;
+}
+@keyframes carMove{
+	from{ transform: rotate( 11deg ) translateX( 100% ) translateY( 22% ); }
+	to{ transform: rotate( 11deg ) translateX( -1% ) translateY( -5% ); }
+}
+.carMove02{
+	animation: carMove02 500ms linear forwards;
+}
+@keyframes carMove02{
+	from{ transform: rotate( 11deg ) translateX( -1% ) translateY( -5% ); }
+	to{ transform:  rotate( 11deg ) translateX( -32% ) translateY( -31% ); }
+}
+
+
+/*云出现*/
+.cloudFromLeft{
+	animation: cloudFromLeft 800ms linear;
+}
+@keyframes cloudFromLeft{
+	from{ transform: translateX(-100%); }
+	to{ transform: translateX(-38%); }
+}
+.cloudFromRight{
+	animation: cloudFromRight 800ms linear;
+}
+@keyframes cloudFromRight{
+	from{ transform: translateX(50%) rotateY(180deg); }
+	to{  transform: translateX(-6%) rotateY(180deg); }
+}
+/*白色背景*/
+.fadeIn{
+	animation: fadeIn 1s 1200ms linear forwards ;
+}
+.fadeIn01{
+	animation: fadeIn01 4s linear forwards ;
+}
+@keyframes fadeIn01{
+	30%{ opacity: 1; }
+	to{ opacity: 0; }
+}
+@keyframes fadeIn{
+	to{ opacity: 1; }
+}
+.fadeOut{
+	animation: fadeOut 1s forwards;
+}
+@keyframes fadeOut{
+	from{ opacity: 1; }
+	to{ opacity: 0; }
+}
+.sildeDown{
+	animation: sildeDown 1s linear forwards;
+}
+@keyframes sildeDown{
+	from{ transform: translateY( -200% ); }
+	to{ transform: translateY( 0% ); }
+}
+.sildeUp{
+	animation: sildeUp 1300ms linear forwards;
+}
+@keyframes sildeUp{
+	from{ top: -39%; }
+	to{ top: -49%; }
+}
+.zoomIn{
+	animation: zoomIn 3s 1s linear forwards;
+}
+@keyframes zoomIn{
+	80%{ transform: scale( 1.1 ); }
+	to{  transform: scale( 1.1 );opacity: 0; }
+}
+.zoomIn02{
+	animation: zoomIn02 3s linear forwards;
+}
+@keyframes zoomIn02{
+	from{ transform: translateY( 800% ) scale( .1 );opacity: 1; }
+	50%{ transform: translateY( 800% ) scale( 1 );opacity: 1; }
+	to{  transform: translateY( 800% ) scale( 1.1 ); opacity: 0; }
+}
+/*for car*/
+.zoomIn03{
+	animation: zoomIn03 1s  linear forwards;
+}
+@keyframes zoomIn03{
+	from{ transform:  translateY( -41% ) scale( .1 );opacity: 0; }
+	to{  transform: translateY( 10% ) scale( 1 ); opacity: 1; }
+}
+.flashRotate{
+	animation: flashRotate 11s linear forwards;
+}
+@keyframes flashRotate{
+	from{ transform: rotate( -105deg );opacity: 0; }
+	5%{ transform: rotate( -100deg );opacity: 1; }
+	to{ transform: rotate( -45deg );opacity: 1; }
+}
+.InTop{
+	animation: InTop 1s linear forwards;
+}
+@keyframes InTop{
+	20%{ opacity: 1; }
+	to{ top: 5%;opacity: 1; }
+}
+.narrow{
+	animation: narrow 3s infinite;
+}
+@keyframes narrow{
+	from{ top: 3%;opacity: 0; }
+	60%{ top: 6%;opacity: 1; }
+	to{ top: 8%;opacity: 0; }
+}

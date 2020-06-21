@@ -1,0 +1,30 @@
+.page-six{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.all6{
+	position: relative;
+}
+.all6 img{
+	width: 14rem;
+	position: relative;
+	left: -32%;
+}
+#con6{
+    text-align: center;
+    color: white;
+    font-size: 0.32rem;
+    letter-spacing: 0.05rem;
+    position: absolute;
+    top: 9%;
+    left: 20%;
+    opacity: 0.8;
+}
+#con6 p:nth-child(1){
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: 华文中宋;
+	color: rgba(255,0,0,0.8);
+	    transform: skewX(-7deg);
+}

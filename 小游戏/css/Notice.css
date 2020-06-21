@@ -1,0 +1,310 @@
+#notice div{
+	z-index: 100;
+}
+#computer{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.one,.two{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#computer img{
+	margin: 18% 0px;
+	width: 4.33rem;
+}
+#computer p{
+	font-size: 0.5rem;
+	text-align: center;
+	color: white;
+}
+#computer button{
+	outline: none;
+	text-align: center;
+	color: black;
+	border: none;
+	padding: 0.1rem 0.8rem;
+	background: white;
+	font-size: 0.4rem;
+	margin-top: 14%;
+	font-weight: bold;
+}
+.dot{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 41%;
+	left: 58%;
+	opacity: 0;
+}
+.dotCartoon{
+	animation: dotCartoon 0.8s infinite;
+}
+@keyframes dotCartoon{
+	from{ opacity: 0; }
+	50%{ opacity: 0.6; }
+	to{ opacity: 0; }
+}
+#bgWhite{
+	height: 100%;
+}
+.two>button:active{
+	background: rgba(208,208,208,1) !important;
+}
+#notice{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba( 0,0,0,0.6 );
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+/*#notice img{
+	width: 4.64rem;
+}
+#notice h2{
+	font-size: 0.5rem;
+	color: white;
+}
+#notice p{
+	color: rgb(177, 123, 53);
+	font-size: 0.4rem;	
+	font-weight: bold;			
+	margin-top: 22%;
+}*/
+
+/*卡带第一页*/
+#kdpt1{
+	position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    width: 100%;
+    font-size: 0.45rem;
+    height: 100%;
+    font-family: monospace;
+}
+#wrap3{
+	text-align: center;
+	margin-top: 23%;
+}#wrap3>img:nth-of-type(1){
+	width: 5.5rem;
+	margin-top: 9%;
+    margin-bottom: 13%;
+}
+#text{
+	margin-bottom: 10%;
+    border: 2px solid black;
+    background-color: rgba(0,0,0,0.3);
+    width: 86%;
+    margin-left: 5%;
+    height: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+#text>p:nth-of-type(2){
+	color: #e6b825;
+	font-size: 0.35rem;
+}
+#wrap3>button:nth-of-type(1){
+	width: 3rem;
+    height: 0.7rem;
+    font-size: 0.38rem;
+    opacity: 0.8;
+    line-height: 0.8rem
+}
+/*卡带第二页*/
+#kdpt2{
+	position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    width: 100%;
+    font-size: 0.45rem;
+    height: 100%;
+    font-family: monospace;
+}
+#wrap4{
+	text-align: center;
+	margin-top: 23%;
+}#wrap4>img:nth-of-type(1){
+	width: 5.5rem;
+	margin-top: 9%;
+    margin-bottom: 13%;
+}
+#text2{
+	margin-bottom: 10%;
+    border: 2px solid black;
+    background-color: rgba(0,0,0,0.3);
+    width: 86%;
+    margin-left: 5%;
+    height: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+#text2>p:nth-of-type(2){
+	color: #e6b825;
+	font-size: 0.35rem;
+}
+#wrap4>button:nth-of-type(1){
+    width: 3.8rem;
+    height: 0.8rem;
+    font-size: 0.42rem;
+}
+
+/*手机显示第一页*/
+#phonept1 {
+position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    width: 100%;
+    font-size: 0.45rem;
+    height: 100%;
+    font-family: monospace;
+}
+
+#phpt2 {
+	text-align: center;
+	margin-top: 34%;
+}
+/*手机端的小亮点*/
+#phpt2>p:nth-of-type(2){
+	    background-color: white;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    left: 45%;
+    animation: liang 1s linear infinite;
+}
+@keyframes liang{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+/*结束*/
+#phpt2>img:nth-of-type(1) {
+	width: 2.5rem;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+
+#ptp {
+	border: 2px solid black;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 6rem;
+	height: 1.5rem;
+	margin-left: 12%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+}
+
+#ptp>p:nth-of-type(2) {
+	font-size: 0.4rem;
+	color: #e6b825;
+}
+/*手机显示第一页结束*/
+
+
+
+
+
+
+/*手机显示第二页开始*/
+#phonept2{
+position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    width: 100%;
+    font-size: 0.45rem;
+    height: 100%;
+    font-family: monospace;
+}
+#wrap2>img:nth-of-type(1){
+	width: 2.5rem;
+}
+#wrap2{
+	text-align: center;
+	margin-top: 23%;
+}
+#ts{
+	margin-top: 9%;
+    margin-bottom: 9%;
+}
+#ts p{
+    font-size: 0.45rem;
+    border: 2px solid black;
+    width: 6rem;
+    background-color: rgba(0,0,0,0.3);
+    margin-left: 11%;
+    height: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrap2>button:nth-of-type(1) {
+    width: 3.2rem;
+    height: 0.85rem;
+    font-size: 0.5rem;
+    margin-top: -1%;
+}
+/*手机显示第二页结束*/
+
+
+/*线索*/
+#clues{
+	color: white;
+	text-align: center;
+	font-size: 0.35rem;
+	position: absolute;
+	bottom: 2%;
+	left: 33%;
+}
+
+
+/*-----------------lastPanel---------------------*/
+#lastPanel{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#lastPanel img{
+	width: 4.64rem;
+}
+#lastPanel h2{
+	font-size: 0.5rem;
+	color: white;
+}
+#lastPanel p{
+	color: rgb(177, 123, 53);
+	font-size: 0.4rem;	
+	font-weight: bold;			
+}

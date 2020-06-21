@@ -1,0 +1,42 @@
+.page-seven {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.all7 {
+	position: relative;
+}
+
+.all7 img {
+	width: 14rem;
+	position: relative;
+	left: -42%;
+}
+
+#con7 {
+	text-align: center;
+	color: white;
+	font-size: 0.32rem;
+	letter-spacing: 0.05rem;
+	position: absolute;
+	top: 28%;
+	left: 20%;
+	opacity: 0.8;
+}
+
+#con7 p:nth-child(1) {
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: 华文中宋;
+	transform: skewX(-7deg);
+}
+
+#bg7{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 14rem;
+	background-color: rgba(0,0,0,0.2);
+}
+

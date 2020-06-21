@@ -1,0 +1,133 @@
+#Tailwrap{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transform: translateX(100%);
+}
+#password {
+	height: 100%;
+	width: 100%;
+	background: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: white;
+	box-sizing: border-box;
+	padding: 1.2rem 1rem;
+	align-items: center;
+}
+
+#password>h3 {
+	font-size: 0.5rem;
+	font-weight: 100;
+	text-align: center;
+}
+
+#circle {
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+#circle>div {
+	border: 0.06rem solid white;
+	height: 0.3rem;
+	width: 0.3rem;
+	border-radius: 50%;
+	margin: 0 0.2rem;
+}
+
+#Numbtn {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: c;
+	/* margin: auto; */
+}
+
+#Numbtn>div {
+	height: 1.2rem;
+	width: 1.2rem;
+	border: 0.03rem solid white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.4rem;
+	margin: 0.2rem 0rem;
+}
+
+#Numbtn>div:active {
+	background: gray;
+}
+
+#cancel {
+	display: flex;
+	width: 100%;
+	flex-direction: row-reverse;
+}
+
+#cancel>span {
+	font-size: 0.4rem;
+	font-weight: bold;
+}
+
+
+/*---------------------------------*/
+
+#tail {
+	height: 100%;
+	width: 100%;
+	background: white;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: none;
+	opacity: 0;
+}
+
+#tail>p {
+	text-align: center;
+	font-size: 0.35rem;
+	margin: 0.1rem 0;
+	opacity: 0;
+}
+
+#tail>p:nth-of-type(1) {
+	font-size: 0.37rem;
+	animation-delay: 2s;
+}
+
+#tail>p:nth-of-type(2) {
+	font-size: 0.37rem;
+	animation-delay: 4s;
+}
+
+#tail>p:nth-of-type(3) {
+	font-size: 0.37rem;
+	animation-delay: 6s;
+}
+
+#poster {
+	height: 100%;
+	width: 100%;
+	background: url(../img/57060d1ca3664ed13c000412.jpg) no-repeat;
+	background-size: 100% 100%;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#poster>p {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 50%;
+}

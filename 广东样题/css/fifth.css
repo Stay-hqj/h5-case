@@ -1,0 +1,118 @@
+#fifth{
+	height: 100%;
+	width: 100%;
+}
+#fifth #write>p{
+    font-size: 0.6rem;
+    color: white;
+    text-align: right;
+    margin-right: 1%;
+}
+#fifth #all{
+	    display: flex;
+	    flex-wrap: wrap;
+	    position: absolute;
+	    left: 2%;
+	    top: 41%;
+	    /* left: 3%; */
+}
+#fifth #all>P{
+		border: 1.5px solid black;
+	    width: 1.7rem;
+	    height: 2rem;
+	    background: white;
+	    display: inline-block;
+	      font-size: 0.4rem;
+	    line-height: 1.96rem;
+	    text-align: center;
+	    font-weight: 700;
+}
+#fifth #hbj{
+	     width: 7.33rem;
+	     /* position: absolute; */
+	     /* top: 0px; */
+	     /* left: 0px; */
+}
+
+#fifth #bg{
+	    position: relative;
+	    /* display: flex; */
+	    /* flex-direction: column; */
+	    /* align-items: center; */
+	    /* justify-content: flex-end; */
+}
+.yellow{
+	    background-color: #ffcf10 !important;
+}
+.yellow:active{
+	background: gray !important;
+}
+#fifth #write{
+	    position: absolute;
+	    right: 2%;
+	    top: 25%;
+	    width: 7.33rem;
+}
+#fifth #on{
+	    font-size: 1rem;
+	    color: white;
+	    letter-spacing: 4px;
+}
+#fifth #tw{
+	    font-size: 1rem;
+	    color: white;
+	    letter-spacing: 4px;
+	    position: absolute;
+	    left: 19%;
+}
+#fifth #pf{
+	    position: relative;
+	    height: 100%;
+	    width: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: flex-end;
+}
+#fifth #footer{
+	   position: absolute;
+	   background: url(../img/p5/ji.png) no-repeat;
+	   background-size: 100% 100%;
+	   left: 0px;
+	   top: 0px;
+	   height:  100%;
+	   width: 100%;
+	   display: flex;
+	   justify-content:  center;
+	   align-items:  center;
+}
+#fifth #bgr{
+	   width: 7.93rem;
+}
+#fifth #result{
+	    width: 6.06rem;
+	    /* position: absolute; */
+	    top: 21%;
+	    left: 10%;
+}
+#fifth #text{
+	    font-size: 0.44rem;
+	    font-weight: bold;
+	    letter-spacing: 6px;
+	    position: absolute;
+	    top: 33%;
+	    left: 25%;
+}
+#fifth .you{
+	    text-align: center;
+	    color: #f86060;
+	    font-size: 0.5rem;
+}
+#fifth .te{
+	    font-size: 0.35rem;
+        margin-top: 5%;
+}
+.te>span{
+	display: block;
+	text-align: center;
+}

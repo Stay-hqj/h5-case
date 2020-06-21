@@ -1,0 +1,29 @@
+#first{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+#first>h1{
+	font-size: 0.5rem;
+	text-align: center;
+	position: relative;
+}
+#first>h1 span{
+	position: absolute;
+	top: -8px;
+	margin-left: 5px;
+	letter-spacing: 2px;
+}
+#first>p{
+	font-size: 0.45rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+#first>img{
+	width: 3.52rem;
+	margin-left: 25px;
+}

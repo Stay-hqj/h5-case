@@ -1,0 +1,73 @@
+#third{
+	height: 100%;
+	width: 100%;
+	/* display: flex; */
+}
+#conte{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.op{
+	position: absolute;
+}
+#sbg{
+	width:7.54rem;
+	top: 0%;
+}
+#xbg{
+	width:7.54rem;
+	top: -0.78rem;
+}
+#sh{
+	width:3.53rem;
+	left: 9%;
+	top: 17%;
+	opacity: 0;
+}
+#xh{
+	width:3.79rem;
+	left: 44%;
+	top: 33%;
+	opacity: 0;
+}
+#man{
+	width: 5.82rem;
+	left: 20%;
+	top: 26%;
+}
+#ch{
+	width:6.97rem;
+	left: 3%;
+	top: 0.8rem;
+}
+#xx{
+	width: 7.54rem;
+	top: 5.89rem;
+}
+#end{
+	width: 0.51rem;
+	left: 45%;
+	bottom: -50%;
+}
+#daren,#xiaohai{
+	position: relative;
+	height: 50%;
+	width: 100%;
+	/* left: 0%; */
+}
+#daren{
+	right: 0%;
+}
+#xiaohai{
+	 left: -102%;
+	 /* top: 50%; */
+}
+#third .arrow{
+	position: absolute;
+	width: 0.51rem;
+	left: 46%;
+	top: 96%;
+}
